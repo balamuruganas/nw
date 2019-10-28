@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Solution Items", ".Solution Items", "{25C50FE0-7A69-4761-9E1F-969B4EDC2B62}"
+	ProjectSection(SolutionItems) = preProject
+		tasks\config.js = tasks\config.js
+		gulpfile.js = gulpfile.js
+		nuget.config = nuget.config
+		package.json = package.json
+		vue.config.js = vue.config.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{72DBE307-F94C-49F2-A896-BEC8CF5658AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{2B5086D8-915A-4F08-B72C-59D712A4F26B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{E7EB270E-EDA1-4236-81DC-ECAFC1AED256}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{593A1045-C332-4FEF-A63F-A31D72B346D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{01318D74-BE85-4BD6-B31F-9D61540D7753}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NW.XC.Plugin.BizFx.DevOps", "NW.XC.Plugin.BizFx.DevOps", "{18F2BC10-BD3B-41A3-85CE-F2898A79D304}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NW.XC.Plugin.JsonCommander", "NW.XC.Plugin.JsonCommander", "{51F04D54-BE26-4AB5-B3B6-A0FBB9738AB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NW.XC.Plugin.Promotions.Generator", "NW.XC.Plugin.Promotions.Generator", "{0B011F03-942A-4AA7-A53B-236996B8E1F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NW.XC.Website.Feature.Cookie", "NW.XC.Website.Feature.Cookie", "{62053EED-FDC2-411D-92CE-7C07E16622CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NW.XC.Plugin.Promotions.Generator", "src\Feature\NW.XC.Plugin.Promotions.Generator\engine\NW.XC.Plugin.Promotions.Generator.csproj", "{F85F15E5-1A6B-41FE-9423-C2FF34AD906E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NW.XC.Plugin.BizFx.DevOps", "src\Feature\NW.XC.Plugin.BizFx.DevOps\engine\NW.XC.Plugin.BizFx.DevOps.csproj", "{DCF381F5-D03C-4C17-85CF-531638E604C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NW.XC.Plugin.JsonCommander", "src\Feature\NW.XC.Plugin.JsonCommander\engine\NW.XC.Plugin.JsonCommander.csproj", "{DDB40FEC-B732-4BBC-BAC4-8510BBD92BBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{8C8416CC-B3F0-4EEB-8442-EDCE2106CC15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NW.XC.Website.Feature.Cookie", "src\Feature\NW.XC.Website.Feature.Cookie\website\NW.XC.Website.Feature.Cookie.csproj", "{F63D405F-1205-463B-9C58-F8217D3BEF49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F85F15E5-1A6B-41FE-9423-C2FF34AD906E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85F15E5-1A6B-41FE-9423-C2FF34AD906E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85F15E5-1A6B-41FE-9423-C2FF34AD906E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85F15E5-1A6B-41FE-9423-C2FF34AD906E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF381F5-D03C-4C17-85CF-531638E604C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF381F5-D03C-4C17-85CF-531638E604C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF381F5-D03C-4C17-85CF-531638E604C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF381F5-D03C-4C17-85CF-531638E604C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB40FEC-B732-4BBC-BAC4-8510BBD92BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB40FEC-B732-4BBC-BAC4-8510BBD92BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB40FEC-B732-4BBC-BAC4-8510BBD92BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB40FEC-B732-4BBC-BAC4-8510BBD92BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F63D405F-1205-463B-9C58-F8217D3BEF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63D405F-1205-463B-9C58-F8217D3BEF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63D405F-1205-463B-9C58-F8217D3BEF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63D405F-1205-463B-9C58-F8217D3BEF49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{593A1045-C332-4FEF-A63F-A31D72B346D8} = {E7EB270E-EDA1-4236-81DC-ECAFC1AED256}
+		{01318D74-BE85-4BD6-B31F-9D61540D7753} = {E7EB270E-EDA1-4236-81DC-ECAFC1AED256}
+		{18F2BC10-BD3B-41A3-85CE-F2898A79D304} = {72DBE307-F94C-49F2-A896-BEC8CF5658AB}
+		{51F04D54-BE26-4AB5-B3B6-A0FBB9738AB3} = {72DBE307-F94C-49F2-A896-BEC8CF5658AB}
+		{0B011F03-942A-4AA7-A53B-236996B8E1F7} = {72DBE307-F94C-49F2-A896-BEC8CF5658AB}
+		{62053EED-FDC2-411D-92CE-7C07E16622CF} = {72DBE307-F94C-49F2-A896-BEC8CF5658AB}
+		{F85F15E5-1A6B-41FE-9423-C2FF34AD906E} = {0B011F03-942A-4AA7-A53B-236996B8E1F7}
+		{DCF381F5-D03C-4C17-85CF-531638E604C7} = {18F2BC10-BD3B-41A3-85CE-F2898A79D304}
+		{DDB40FEC-B732-4BBC-BAC4-8510BBD92BBA} = {51F04D54-BE26-4AB5-B3B6-A0FBB9738AB3}
+		{8C8416CC-B3F0-4EEB-8442-EDCE2106CC15} = {E7EB270E-EDA1-4236-81DC-ECAFC1AED256}
+		{F63D405F-1205-463B-9C58-F8217D3BEF49} = {62053EED-FDC2-411D-92CE-7C07E16622CF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BD92470-2D27-40B3-AAB4-CE3F2FA695AD}
+	EndGlobalSection
+EndGlobal

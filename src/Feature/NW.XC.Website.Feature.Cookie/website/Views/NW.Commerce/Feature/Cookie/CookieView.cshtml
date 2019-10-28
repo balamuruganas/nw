@@ -1,0 +1,11 @@
+﻿@using Naturesway.Feature.Webshop.Cookie.Models
+
+@model CookiesViewModel
+
+@{
+    var iFrameUrl = String.Format("/api/sitecore/sccookie/setcookies?ScAnalyticsGlobalCookie={0}", Model.ScAnalyticsGlobalCookie);
+}
+@foreach (var site in Model.Domains)
+{
+    <iframe src="@Html.Raw(site + iFrameUrl)" style="display:none;"></iframe>
+}

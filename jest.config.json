@@ -1,0 +1,54 @@
+{
+  "testMatch": [
+    "**/**/*.spec.js"
+  ],
+  "verbose": true,
+  "testURL": "http://localhost",
+  "modulePathIgnorePatterns": [
+    "<rootDir>[/\\\\](build|docs|node_modules|packages|scripts|src/Feature)[/\\\\]"
+  ],
+  "collectCoverageFrom": [
+    "src/**/*.js",
+    "src/**/*.vue",
+    "!src/**/entry.js",
+    "!<rootDir>/node_modules/",
+    "!<rootDir>/packages/"
+  ],
+  "moduleFileExtensions": [
+    "js",
+    "vue"
+  ],
+  "moduleNameMapper": {
+    "^vue$": "vue/dist/vue.common.js"
+  },
+  "moduleDirectories": ["node_modules", "./src/Foundation/"],
+  "setupFiles": [
+    "<rootDir>/Tasks/jest/polyfill.request-animation-frame.js",
+    "<rootDir>/Tasks/jest/polyfill.matchMedia.js",
+    "<rootDir>/Tasks/jest/setup.eventBus.js",
+    "<rootDir>/Tasks/jest/setup.stub.js",
+    "<rootDir>/Tasks/jest/setup.geolocation.js",
+    "jest-localstorage-mock"
+  ],
+  "setupTestFrameworkScriptFile": "./setup-jasmine-env.js",
+  "snapshotSerializers": [
+    "jest-serializer-vue"
+  ],
+  "unmockedModulePathPatterns": [
+    "./node_modules/jasmine-reporters"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "branches": 0,
+      "functions": 0,
+      "lines": 0,
+      "statements": 0
+    }
+  },
+  "transform": {
+    "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
+    ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest"
+  },
+  "reporters": ["default", ["jest-junit", { "output": "coverage/junit.xml" }]],
+  "coverageReporters": ["text", "lcov", "cobertura"]
+}
