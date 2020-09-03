@@ -49,7 +49,7 @@
     "gulp-install": "^1.1.0",
     "idempotent-babel-polyfill": "^7.0.0",
     "jest-serializer-vue": "^2.0.2",
-    "lazysizes": "^3.0.0",
+    "lazysizes": "^5.2.1",
     "lodash": "^4.17.4",
     "picturefill": "^3.0.2",
     "simple-vue-validator": "^0.15.1",
